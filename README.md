@@ -24,3 +24,12 @@ En el repositorio antes mencionado, se encuentra el desarrollo del algoritmo en 
 Primero, deben descargarse ambos archivos .xlsx en su computadora, y guardar la ruta donde se van a descargar. Luego, se descarga el algoritmo como tal (postulacion_sunai.ipynb) y sólo se debe indicar la carpeta o ruta donde están los archivos excel.
 
 El algoritmo guardará las graficas de *active_power_im* por fecha, por archivo, y mostrara en pantalla la *suma de active power* de cada planta, para todos los inversores. Adicionalmente, se creará un archivo .txt con el resumen por cada inversor para la suma, máximo y mínimo de *active_power_im*, con su respectiva fecha, para cada inversor.
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+### *Extra*
+
+1) En caso que se trabajen con más fechas (mismo archivo o más de 1), la opción es *pd.concat* y concatenar las fechas en una columna maestra, para luego hacer una separación/clasificación por *groupby* y *get_group*.
+
+2) Si se desea crear una carpeta y guardar allí archivos, se dispone de un módulo ejemplo en .ipynb, (es referencial, no aplica directamente al algoritmo original, se debe modificar para tal motivo).
