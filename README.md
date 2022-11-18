@@ -32,4 +32,4 @@ El algoritmo guardará las graficas de *active_power_im* por fecha, por archivo,
 
 1) En caso que se trabajen con más fechas (mismo archivo o más de 1), la opción es *pd.concat* y concatenar las fechas en una columna maestra, para luego hacer una separación/clasificación por *groupby* y *get_group*.
 
-2) Si se desea crear una carpeta y guardar allí archivos, se dispone de un módulo ejemplo llamado *create_achieve_drop_files.ipynb* (es referencial, no aplica con al algoritmo original, se debe modificar para tal motivo).
+2) Si se desea crear una carpeta y guardar allí archivos, está un módulo ejemplo llamado *create_archive_drop_files.ipynb* (es referencial, no aplica con al algoritmo original, se debe modificar para tal motivo).
