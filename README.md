@@ -30,6 +30,6 @@ El algoritmo guardará las graficas de *active_power_im* por fecha, por archivo,
 
 ### *Extra*
 
-1) En caso que se trabajen con más fechas (mismo archivo o más de 1), la opción es *pd.concat*, generando una columa maestra de fechas usando *dt.date()* o *dt.time()*, y clasificar datos con *groupby* o *get_group*.
+1) En caso que se trabajen con más fechas (mismo archivo o más de 1), la opción es *pd.concat*, generando una columa maestra de fechas usando *dt.date()* o *dt.time()*, y clasificar datos con *groupby* o *get_group*. En ese caso, se crearía una línea de código adicional para generar diccionarios por cada planta, para cada fecha.
 
-2) Si se desea crear una carpeta y guardar allí archivos, está un módulo ejemplo llamado *create_archive_drop_files.ipynb* (es referencial, no aplica con al algoritmo original, se debe modificar para tal motivo).
+3) Si se desea crear una carpeta y guardar allí archivos, está un módulo ejemplo llamado *create_archive_drop_files.ipynb* (es referencial, no aplica con al algoritmo original, se debe modificar para tal motivo).
